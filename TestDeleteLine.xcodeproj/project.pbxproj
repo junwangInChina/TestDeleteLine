@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6EBB9819540E30001CDE7F /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6EBB9719540E30001CDE7F /* example.png */; };
 		CEDDABC3193323FC00B855A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC2193323FC00B855A3 /* Foundation.framework */; };
 		CEDDABC5193323FC00B855A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC4193323FC00B855A3 /* CoreGraphics.framework */; };
 		CEDDABC7193323FC00B855A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC6193323FC00B855A3 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE6EBB9719540E30001CDE7F /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 		CEDDABBF193323FC00B855A3 /* TestDeleteLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDeleteLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDDABC2193323FC00B855A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEDDABC4193323FC00B855A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,9 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE6EBB9519540E30001CDE7F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EBB9619540E30001CDE7F /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CE6EBB9619540E30001CDE7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EBB9719540E30001CDE7F /* example.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		CEDDABB6193323FC00B855A3 = {
 			isa = PBXGroup;
 			children = (
+				CE6EBB9519540E30001CDE7F /* Resource */,
 				CEDDABF11933245500B855A3 /* Classes */,
 				CEDDABC8193323FC00B855A3 /* TestDeleteLine */,
 				CEDDABE1193323FC00B855A3 /* TestDeleteLineTests */,
@@ -279,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6EBB9819540E30001CDE7F /* example.png in Resources */,
 				CEDDABCD193323FC00B855A3 /* InfoPlist.strings in Resources */,
 				CEDDABD5193323FC00B855A3 /* Images.xcassets in Resources */,
 			);
@@ -503,6 +523,7 @@
 				CEDDABED193323FC00B855A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEDDABEE193323FC00B855A3 /* Build configuration list for PBXNativeTarget "TestDeleteLineTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +532,7 @@
 				CEDDABF0193323FC00B855A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
