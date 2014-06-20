@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDDABC3193323FC00B855A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC2193323FC00B855A3 /* Foundation.framework */; };
+		CEDDABC5193323FC00B855A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC4193323FC00B855A3 /* CoreGraphics.framework */; };
+		CEDDABC7193323FC00B855A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC6193323FC00B855A3 /* UIKit.framework */; };
+		CEDDABCD193323FC00B855A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDDABCB193323FC00B855A3 /* InfoPlist.strings */; };
+		CEDDABCF193323FC00B855A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDDABCE193323FC00B855A3 /* main.m */; };
+		CEDDABD3193323FC00B855A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDDABD2193323FC00B855A3 /* AppDelegate.m */; };
+		CEDDABD5193323FC00B855A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDDABD4193323FC00B855A3 /* Images.xcassets */; };
+		CEDDABDC193323FC00B855A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABDB193323FC00B855A3 /* XCTest.framework */; };
+		CEDDABDD193323FC00B855A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC2193323FC00B855A3 /* Foundation.framework */; };
+		CEDDABDE193323FC00B855A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDABC6193323FC00B855A3 /* UIKit.framework */; };
+		CEDDABE6193323FC00B855A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDDABE4193323FC00B855A3 /* InfoPlist.strings */; };
+		CEDDABE8193323FC00B855A3 /* TestDeleteLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDDABE7193323FC00B855A3 /* TestDeleteLineTests.m */; };
+		CEDDABF81933246900B855A3 /* CommonDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDDABF71933246900B855A3 /* CommonDeal.m */; };
+		CEDDABFC1933255D00B855A3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDDABFB1933255D00B855A3 /* HomeViewController.m */; };
+		CEDDABFF1933259D00B855A3 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDDABFE1933259D00B855A3 /* HomeView.m */; };
+		CEDDAC021933260700B855A3 /* UIView+ModifyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDDAC011933260700B855A3 /* UIView+ModifyFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDDABDF193323FC00B855A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDDABB7193323FC00B855A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDDABBE193323FC00B855A3;
+			remoteInfo = TestDeleteLine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDDABBF193323FC00B855A3 /* TestDeleteLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDeleteLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDDABC2193323FC00B855A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEDDABC4193323FC00B855A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEDDABC6193323FC00B855A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEDDABCA193323FC00B855A3 /* TestDeleteLine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestDeleteLine-Info.plist"; sourceTree = "<group>"; };
+		CEDDABCC193323FC00B855A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDDABCE193323FC00B855A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDDABD0193323FC00B855A3 /* TestDeleteLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestDeleteLine-Prefix.pch"; sourceTree = "<group>"; };
+		CEDDABD1193323FC00B855A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEDDABD2193323FC00B855A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDDABD4193323FC00B855A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEDDABDA193323FC00B855A3 /* TestDeleteLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDeleteLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDDABDB193323FC00B855A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEDDABE3193323FC00B855A3 /* TestDeleteLineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestDeleteLineTests-Info.plist"; sourceTree = "<group>"; };
+		CEDDABE5193323FC00B855A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDDABE7193323FC00B855A3 /* TestDeleteLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDeleteLineTests.m; sourceTree = "<group>"; };
+		CEDDABF61933246900B855A3 /* CommonDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDeal.h; sourceTree = "<group>"; };
+		CEDDABF71933246900B855A3 /* CommonDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDeal.m; sourceTree = "<group>"; };
+		CEDDABFA1933255D00B855A3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CEDDABFB1933255D00B855A3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CEDDABFD1933259D00B855A3 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		CEDDABFE1933259D00B855A3 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		CEDDAC001933260700B855A3 /* UIView+ModifyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ModifyFrame.h"; sourceTree = "<group>"; };
+		CEDDAC011933260700B855A3 /* UIView+ModifyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ModifyFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDDABBC193323FC00B855A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDABC5193323FC00B855A3 /* CoreGraphics.framework in Frameworks */,
+				CEDDABC7193323FC00B855A3 /* UIKit.framework in Frameworks */,
+				CEDDABC3193323FC00B855A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDABD7193323FC00B855A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDABDC193323FC00B855A3 /* XCTest.framework in Frameworks */,
+				CEDDABDE193323FC00B855A3 /* UIKit.framework in Frameworks */,
+				CEDDABDD193323FC00B855A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDDABB6193323FC00B855A3 = {
+			isa = PBXGroup;
+			children = (
+				CEDDABF11933245500B855A3 /* Classes */,
+				CEDDABC8193323FC00B855A3 /* TestDeleteLine */,
+				CEDDABE1193323FC00B855A3 /* TestDeleteLineTests */,
+				CEDDABC1193323FC00B855A3 /* Frameworks */,
+				CEDDABC0193323FC00B855A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDDABC0193323FC00B855A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABBF193323FC00B855A3 /* TestDeleteLine.app */,
+				CEDDABDA193323FC00B855A3 /* TestDeleteLineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDDABC1193323FC00B855A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABC2193323FC00B855A3 /* Foundation.framework */,
+				CEDDABC4193323FC00B855A3 /* CoreGraphics.framework */,
+				CEDDABC6193323FC00B855A3 /* UIKit.framework */,
+				CEDDABDB193323FC00B855A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDDABC8193323FC00B855A3 /* TestDeleteLine */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABD1193323FC00B855A3 /* AppDelegate.h */,
+				CEDDABD2193323FC00B855A3 /* AppDelegate.m */,
+				CEDDABD4193323FC00B855A3 /* Images.xcassets */,
+				CEDDABC9193323FC00B855A3 /* Supporting Files */,
+			);
+			path = TestDeleteLine;
+			sourceTree = "<group>";
+		};
+		CEDDABC9193323FC00B855A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABCA193323FC00B855A3 /* TestDeleteLine-Info.plist */,
+				CEDDABCB193323FC00B855A3 /* InfoPlist.strings */,
+				CEDDABCE193323FC00B855A3 /* main.m */,
+				CEDDABD0193323FC00B855A3 /* TestDeleteLine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDDABE1193323FC00B855A3 /* TestDeleteLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABE7193323FC00B855A3 /* TestDeleteLineTests.m */,
+				CEDDABE2193323FC00B855A3 /* Supporting Files */,
+			);
+			path = TestDeleteLineTests;
+			sourceTree = "<group>";
+		};
+		CEDDABE2193323FC00B855A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABE3193323FC00B855A3 /* TestDeleteLineTests-Info.plist */,
+				CEDDABE4193323FC00B855A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDDABF11933245500B855A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABF21933245500B855A3 /* Category */,
+				CEDDABF31933245500B855A3 /* Common */,
+				CEDDABF41933245500B855A3 /* Controllers */,
+				CEDDABF51933245500B855A3 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEDDABF21933245500B855A3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDAC001933260700B855A3 /* UIView+ModifyFrame.h */,
+				CEDDAC011933260700B855A3 /* UIView+ModifyFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CEDDABF31933245500B855A3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABF61933246900B855A3 /* CommonDeal.h */,
+				CEDDABF71933246900B855A3 /* CommonDeal.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CEDDABF41933245500B855A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABFA1933255D00B855A3 /* HomeViewController.h */,
+				CEDDABFB1933255D00B855A3 /* HomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEDDABF51933245500B855A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDABFD1933259D00B855A3 /* HomeView.h */,
+				CEDDABFE1933259D00B855A3 /* HomeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDDABBE193323FC00B855A3 /* TestDeleteLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDDABEB193323FC00B855A3 /* Build configuration list for PBXNativeTarget "TestDeleteLine" */;
+			buildPhases = (
+				CEDDABBB193323FC00B855A3 /* Sources */,
+				CEDDABBC193323FC00B855A3 /* Frameworks */,
+				CEDDABBD193323FC00B855A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDeleteLine;
+			productName = TestDeleteLine;
+			productReference = CEDDABBF193323FC00B855A3 /* TestDeleteLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDDABD9193323FC00B855A3 /* TestDeleteLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDDABEE193323FC00B855A3 /* Build configuration list for PBXNativeTarget "TestDeleteLineTests" */;
+			buildPhases = (
+				CEDDABD6193323FC00B855A3 /* Sources */,
+				CEDDABD7193323FC00B855A3 /* Frameworks */,
+				CEDDABD8193323FC00B855A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDDABE0193323FC00B855A3 /* PBXTargetDependency */,
+			);
+			name = TestDeleteLineTests;
+			productName = TestDeleteLineTests;
+			productReference = CEDDABDA193323FC00B855A3 /* TestDeleteLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDDABB7193323FC00B855A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEDDABD9193323FC00B855A3 = {
+						TestTargetID = CEDDABBE193323FC00B855A3;
+					};
+				};
+			};
+			buildConfigurationList = CEDDABBA193323FC00B855A3 /* Build configuration list for PBXProject "TestDeleteLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEDDABB6193323FC00B855A3;
+			productRefGroup = CEDDABC0193323FC00B855A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDDABBE193323FC00B855A3 /* TestDeleteLine */,
+				CEDDABD9193323FC00B855A3 /* TestDeleteLineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDDABBD193323FC00B855A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDABCD193323FC00B855A3 /* InfoPlist.strings in Resources */,
+				CEDDABD5193323FC00B855A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDABD8193323FC00B855A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDABE6193323FC00B855A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDDABBB193323FC00B855A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDAC021933260700B855A3 /* UIView+ModifyFrame.m in Sources */,
+				CEDDABD3193323FC00B855A3 /* AppDelegate.m in Sources */,
+				CEDDABCF193323FC00B855A3 /* main.m in Sources */,
+				CEDDABFF1933259D00B855A3 /* HomeView.m in Sources */,
+				CEDDABF81933246900B855A3 /* CommonDeal.m in Sources */,
+				CEDDABFC1933255D00B855A3 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDABD6193323FC00B855A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDABE8193323FC00B855A3 /* TestDeleteLineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDDABE0193323FC00B855A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDDABBE193323FC00B855A3 /* TestDeleteLine */;
+			targetProxy = CEDDABDF193323FC00B855A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDDABCB193323FC00B855A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDDABCC193323FC00B855A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEDDABE4193323FC00B855A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDDABE5193323FC00B855A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDDABE9193323FC00B855A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEDDABEA193323FC00B855A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDDABEC193323FC00B855A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestDeleteLine/TestDeleteLine-Prefix.pch";
+				INFOPLIST_FILE = "TestDeleteLine/TestDeleteLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEDDABED193323FC00B855A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestDeleteLine/TestDeleteLine-Prefix.pch";
+				INFOPLIST_FILE = "TestDeleteLine/TestDeleteLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEDDABEF193323FC00B855A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestDeleteLine.app/TestDeleteLine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestDeleteLine/TestDeleteLine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestDeleteLineTests/TestDeleteLineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEDDABF0193323FC00B855A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestDeleteLine.app/TestDeleteLine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestDeleteLine/TestDeleteLine-Prefix.pch";
+				INFOPLIST_FILE = "TestDeleteLineTests/TestDeleteLineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDDABBA193323FC00B855A3 /* Build configuration list for PBXProject "TestDeleteLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDDABE9193323FC00B855A3 /* Debug */,
+				CEDDABEA193323FC00B855A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDDABEB193323FC00B855A3 /* Build configuration list for PBXNativeTarget "TestDeleteLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDDABEC193323FC00B855A3 /* Debug */,
+				CEDDABED193323FC00B855A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDDABEE193323FC00B855A3 /* Build configuration list for PBXNativeTarget "TestDeleteLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDDABEF193323FC00B855A3 /* Debug */,
+				CEDDABF0193323FC00B855A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDDABB7193323FC00B855A3 /* Project object */;
+}
